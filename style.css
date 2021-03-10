@@ -1,0 +1,23 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+}
+
+#topbg {
+	position:fixed;
+  left: 0;
+  bottom: 500px;
+}
+
+#bottombg {
+	position:fixed;
+  left: 1200px;
+  top: 500px;
+
+}
+
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
