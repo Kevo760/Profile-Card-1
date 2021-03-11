@@ -21,3 +21,14 @@ body {
     bottom: 0;
     right: 0;
 }
+
+.profilebox {
+  font-family: Kumbh Sans;
+  background-color: #F0F8FF;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  left: 800px;
+  top: 350px;
+}
