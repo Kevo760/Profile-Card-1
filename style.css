@@ -5,13 +5,13 @@ body {
 #topbg {
 	position:fixed;
   left: 0;
-  bottom: 500px;
+  bottom: 60%;
 }
 
 #bottombg {
 	position:fixed;
-  left: 1200px;
-  top: 500px;
+  left: 55%;
+  top: 55%;
 
 }
 
@@ -24,11 +24,53 @@ body {
 
 .profilebox {
   font-family: Kumbh Sans;
+  font-size: 18px;
   background-color: #F0F8FF;
-  border-radius: 10px;
+  border-radius: 15px;
   width: 500px;
   height: 500px;
-  position: relative;
-  left: 800px;
-  top: 350px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+
+.bgcard {
+  width: 500px;
+  height: 180px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.profilepic {
+  border-radius: 50%;
+  height: 25%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid white;
+}
+
+.name {
+  text-align: center;
+  padding-top: 15%;
+}
+
+.city {
+  text-align: center;
+}
+
+.stats {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  line-height: 0.5;
+  padding-top: 10%;
+}
+
+.amount {
+  font-weight: bold;
 }
