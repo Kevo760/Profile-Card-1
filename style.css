@@ -4,14 +4,14 @@ body {
 
 #topbg {
 	position:fixed;
-  left: 0;
-  bottom: 60%;
+  right: 55%;
+  bottom: 40%;
 }
 
 #bottombg {
 	position:fixed;
   left: 55%;
-  top: 55%;
+  top: 40%;
 
 }
 
@@ -27,19 +27,20 @@ body {
   font-size: 18px;
   background-color: #F0F8FF;
   border-radius: 15px;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
+  box-sizing: border-box;
 }
 
 
 .bgcard {
-  width: 500px;
-  height: 180px;
+  width: 400px;
+  height: 140px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -66,9 +67,9 @@ body {
 .stats {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 135px);
   line-height: 0.5;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .amount {
