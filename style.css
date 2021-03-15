@@ -4,14 +4,14 @@ body {
 
 #topbg {
 	position:fixed;
-  right: 55%;
+  right: 50%;
   bottom: 40%;
 }
 
 #bottombg {
 	position:fixed;
-  left: 55%;
-  top: 40%;
+  left: 50%;
+  top: 50%;
 
 }
 
@@ -23,24 +23,22 @@ body {
 }
 
 .profilebox {
-  font-family: "Kumbh Sans", sans-serif;
-  font-size: 18px;
+  font-family: "Kumbh Sans";
   background-color: #F0F8FF;
   border-radius: 15px;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  box-sizing: border-box;
 }
 
 
 .bgcard {
-  width: 400px;
-  height: 140px;
+  width: 350px;
+  height: 120px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -55,7 +53,7 @@ body {
   border: 5px solid white;
 }
 
-.name {
+.nameage {
   text-align: center;
   padding-top: 15%;
 }
@@ -67,11 +65,16 @@ body {
 .stats {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(3, 135px);
+  grid-template-columns: repeat(3, 110px);
   line-height: 0.5;
   padding-top: 5%;
+  padding-left: 3%;
 }
 
-.amount {
-  font-weight: bold;
+.name, .amount {
+  font-weight: 700;
+}
+
+.catagory {
+  font-weight: 400;
 }
