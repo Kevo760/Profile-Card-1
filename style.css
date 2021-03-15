@@ -24,22 +24,23 @@ body {
 
 .profilebox {
   font-family: "Kumbh Sans";
+  font-weight: lighter;
   background-color: #F0F8FF;
   border-radius: 15px;
-  width: 350px;
-  height: 350px;
+  width: 380px;
+  height: 380px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 30px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 90px;
 }
 
 
 .bgcard {
-  width: 350px;
-  height: 120px;
+  width: 380px;
+  height: 130px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -66,7 +67,7 @@ body {
 .stats {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(3, 110px);
+  grid-template-columns: repeat(3, 120px);
   line-height: 0.5;
   padding-top: 5%;
   padding-left: 3%;
@@ -74,8 +75,4 @@ body {
 
 .name, .amount {
   font-weight: 700;
-}
-
-.catagory {
-  font-weight: 400;
 }
