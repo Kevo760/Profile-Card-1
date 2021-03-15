@@ -23,7 +23,7 @@ body {
 }
 
 .profilebox {
-  font-family: Kumbh Sans;
+  font-family: "Kumbh Sans", sans-serif;
   font-size: 18px;
   background-color: #F0F8FF;
   border-radius: 15px;
