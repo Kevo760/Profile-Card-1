@@ -1,78 +1,88 @@
-body {
+html {
+  font-family: 'Kumbh Sans';
   background-color: hsl(185, 75%, 39%);
-}
-
-#topbg {
-	position:fixed;
-  right: 50%;
-  bottom: 40%;
-}
-
-#bottombg {
-	position:fixed;
-  left: 50%;
-  top: 50%;
-
+  color: hsl(229, 23%, 23%);
+  background-image: url('./images/bg-pattern-top.svg'),
+  url('./images/bg-pattern-bottom.svg');
+  background-size: auto;
+  background-position: 
+  bottom 200px left -100px,
+  top 300px right -50px;
+  background-repeat: no-repeat;
 }
 
 
-.attribution {
-    position: fixed;
-    bottom: 0;
-    right: 0;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.profilebox {
-  font-family: 'Kumbh Sans', sans-serif;
+
+/*  ======================== TEXT =============================== */
+
+p {
+font-weight: 700;
+font-size: 18px;
+margin-top: 1rem;
+line-height: 1.6;
+}
+
+span {
   font-weight: 400;
-  background-color: #F0F8FF;
-  border-radius: 15px;
-  width: 380px;
-  height: 380px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 90px;
+  color: hsl(0, 0%, 59%);
 }
 
+/*  ======================== TEXT =============================== */
 
-.bgcard {
-  width: 380px;
-  height: 130px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+
+
+/*  ======================== CARD =============================== */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 21.88rem;
+  height: 23.75rem;
+  background-color: white;
+  overflow: hidden;
+  margin: 10rem auto;
+  border-radius: 1rem;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.profilepic {
-  border-radius: 50%;
-  height: 25%;
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 5px solid white;
+/*  ======================== MIDDLE DESIGN =============================== */
+
+.middle-design img {
+  border: white solid 5px;
+  border-radius: 4rem;
+  margin-top: -3.5em;
 }
 
-.nameage {
-  text-align: center;
-  padding-top: 15%;
-}
-
-.city {
+.middle-design {
   text-align: center;
 }
 
-.stats {
+
+/*  ======================== MIDDLE DESIGN =============================== */
+
+/*  ======================== BOTTOM DESIGN =============================== */
+.bottom-design {
+  display: flex;
+  flex-direction: row;
   text-align: center;
-  display: grid;
-  grid-template-columns: repeat(3, 120px);
-  line-height: 0.5;
-  padding-top: 5%;
-  padding-left: 3%;
+  border-top: hsl(0, 0%, 59%) solid 1px;
+  width: 100%;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 1.5rem;
+}
+.bottom-design p {
+  margin-top: 1.4rem;
 }
 
-.name, .amount {
-  font-weight: 700;
-}
+
+
+/*  ======================== BOTTOM DESIGN =============================== */
